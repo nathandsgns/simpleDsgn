@@ -1,0 +1,81 @@
+.s{
+    width:100%;
+    height:100vh;
+
+    background:black;
+    background:url(https://images.unsplash.com/photo-1695390478399-1607ff9a78d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80);
+    background-position: center;
+    background-size: cover;
+}
+.opacity{
+    width:100%;
+    height:100vh;
+
+    background:rgba(0,0,0,.5);
+    
+    position:absolute;
+    top:0%;
+    left:0%;
+    z-index:0;
+}
+.logo{
+    width:auto;
+    margin:3vw;
+    font-size: 3rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+
+    
+    position:absolute;
+    top: 0%;
+    right:0%;
+    z-index:3;
+}
+
+.content{
+    margin:3vw;
+    display:flex;
+    flex-direction:column;
+    
+    position:absolute;
+    left:0%;
+    bottom:0%;
+    z-index:1;
+}
+.logoa{
+    font-size: 7rem;
+    font-style: italic;
+}
+
+.s1{
+    width:50%;
+    height:100vh;
+
+    background:black;
+    position:absolute;
+    top:0%;
+    right:0%;
+    z-index:2;
+}
+.content1{
+    display:flex;
+    flex-direction:column;
+}
+.title1{
+    margin:10vh 0 5vh 3vw;
+    font-size: 3rem;
+}
+.descr1{
+    width:80%;
+    margin:0 0 0 3vw;
+    font-size: .875rem;
+    font-style: italic;
+}
+
+.footer{
+    position:absolute;
+    top:100%;
+    left:0%;
+}
