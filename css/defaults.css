@@ -1,7 +1,7 @@
 *{
     color:white;
     font-size: 16px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Playfair', serif;
 }
 body{
     display:flex;
@@ -11,98 +11,73 @@ body{
     margin:0;
     width:100%;
     height:100vh;
-}
-@keyframes fadeIn{
-    0%{
-        opacity:0;
-    }
-    100%{
-        opacity:1;
-    }
-}
-::-webkit-scrollbar{
-    width:2px;
+
     background:black;
-}
-::-webkit-scrollbar-thumb{
-    width:2px;
-    background:white;
+    overflow-x: hidden;
 }
 
-.nav{
-    width:auto;
-    height:auto;
-    margin:0 0;
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-end;
-}
-.nav-item{
-    margin:0 0 2vh 0;
-    display:flex;
-    align-items:center;
-
-    text-decoration:none;
-    text-align:center;
-    transition: color 0.5s ease;
-}
-.nav-item-hover{
-    width:0rem;
-    height:100%;
-    margin:0 0 0 0;
-    
-    background:black;
-    transition:width 0.5s ease, margin 0.5s ease;
-}
-.nav-item:hover{
-    color:white;
-}
-.nav-item:hover .nav-item-hover{
-    margin: 0 2vw 0 0;
-}
-
-.footer{
+.f{
     width:100%;
     height:auto;
     display:flex;
     flex-direction:column;
     align-items:center;
-
-    background:black;
 }
-
-.descrfa{
-    width:50%;
+.logofa{
+    width:3rem;
+    height:3rem;
     margin:10vh 0 0 0;
-    font-size: .875rem;
-    text-align:center;
-}
-.logof{
-    margin:2vh 0;
-    font-size: 7rem;
-}
 
+    background:white;
+}
 .navf{
-    margin:0 0 2vh 0;
+    width:auto;
+    padding:0 5vh 3vh 5vh;
     display:flex;
     align-items:center;
     justify-content:center;
+
+    border-bottom:2px solid gray;
 }
-.navf-item{
+.nav-itemf{
     margin:0 2vw;
-    text-decoration:none;
     transition:color 0.5s ease;
 }
-.navf-item:hover{
+.nav-itemf:hover{
     color:gray;
 }
+.socialsf{
+    width:25%;
+    height:auto;
+    margin:3vh 0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.socialf{
+    width:1.5rem;
+    height:1.5rem;
 
+    border-radius:.25rem;
+    background:white;
+    transition:background 0.5s ease;
+}
+.socialf:hover{
+    background:gray;
+}
+.logof{
+    width:90%;
+    margin:2vh 0;
+    text-align:center;
+    font-size: 7rem;
+}
 .descrf{
     width:90%;
-    padding:2vh 0;
-    text-align:center;
-    font-size: .75rem;
+    padding:2vh 0 3vw 0;
 
-    color:gray;
+    text-align:center;
+
     border-top:2px solid gray;
+    color:gray;
+    font-style: italic;
 }
