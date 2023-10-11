@@ -40,7 +40,8 @@ body{
     border-bottom:2px solid gray;
 }
 .nav-itemf{
-    margin:0 2vw;
+    margin:0 5vw;
+    text-decoration: none;
     transition:color 0.5s ease;
 }
 .nav-itemf:hover{
@@ -80,4 +81,21 @@ body{
     border-top:2px solid gray;
     color:gray;
     font-style: italic;
+}
+@media only screen and (max-width:800px){
+    .f{
+        height:100vh;
+    }
+    .socialsf{
+        width:50%;
+
+    }
+}
+::-webkit-scrollbar{
+    width:.25rem;
+    background:white;
+}
+::-webkit-scrollbar-thumb{
+    width:2px;
+    background:gray;
 }
