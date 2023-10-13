@@ -50,8 +50,8 @@
 
 .titlea{
     margin:3vh 0 0 3vw;
-    font-size: 6rem;
-
+    font-size: 10vw;
+    transition: font-size 0.5s ease;
 }
 
 .socials{
@@ -84,11 +84,10 @@
         width:100%;
         height:100vh;
     }
-    .title{
-        width:80%;
-        margin:3vw 0;
-        right:10%;
-
+    .titlea{
+        font-size: 20vw;
+        margin:0 0 2vh 0;
+        text-align:center;
     }
     .contents{
         height:100vh;
@@ -155,6 +154,18 @@
     margin:3vh 0 0 0;
     text-align: center;
 }
+@media only screen and (max-width:800px){
+    .title1{
+        font-size: 5rem;
+    }
+    .descr1{
+        width:80%;
+    }
+    .content1{
+        width:100%;
+        height:70vh;
+    }
+}
 
 
 .s2{
@@ -168,9 +179,9 @@
 }
 .title2a{
     width:90%;
-    margin:10vh 0 0 0;
     text-align: right;
-    font-size: 5rem;
+    font-size: 10vw;
+    transform: translateY(15vh);
 }
 .contents2,.contents2a{
     width:49.5%;
@@ -216,7 +227,6 @@
 .contents2a{
     align-items:center;
     justify-content: center;
-
 }
 
 .content2a{
@@ -228,12 +238,26 @@
 @media only screen and (max-width:800px){
     .contents2,.contents2a{
         width:100%;
-        margin:5vh 0;
     }
     .content2{
         width:100%;
         height:50vh;
         margin:0;
+    }
+    .title2,.descr2,.btn2{
+        text-align: center;
+    }
+    .descr2{
+        margin:1.5vh 0;
+    }
+
+    .title2a{
+        margin:10vh 0;
+        text-align: center;
+        transform: none;
+    }
+    .content2a{
+        width:100%;
     }
 }
 
@@ -262,3 +286,12 @@
         padding:0;
     }
 }
+.f{
+    padding:0 0 15vh 0;
+}
+@media only screen and (max-width:800px){
+    .f{
+        padding:0;
+    }
+}
+
